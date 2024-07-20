@@ -1,1 +1,1 @@
-# icecream
+# $cube coin on sol
