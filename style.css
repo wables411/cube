@@ -1,7 +1,7 @@
 /* Define the custom font */
 @font-face {
     font-family: 'OCR A Extended';
-    src: url('fonts/OCR-A-Extended.ttf') format('truetype');
+    src: url('fonts/OCRAEXT.TTF') format('truetype');
 }
 
 /* Apply the custom font */
@@ -27,6 +27,7 @@ body, html {
     width: 100%;
     max-width: 800px;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 header {
@@ -94,6 +95,10 @@ footer {
     background-size: cover;
     margin-left: 10px;
     vertical-align: middle;
+}
+
+body {
+    cursor: default;
 }
 
 .buy-section {
