@@ -29,7 +29,7 @@ header, .content {
 
 footer {
     padding: 20px;
-    background-color: #000; /* Black background for footer */
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background for footer */
     color: #ff8ee9; /* Light pink text */
     width: 100%;
     text-align: center;
