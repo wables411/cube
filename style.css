@@ -101,6 +101,6 @@ footer .soundcloud {
     width: 50%;
     height: 50%;
     object-fit: cover;
-    opacity: 0.6; /* Increase opacity for better readability */
+    opacity: 0.4; /* Increase opacity for better readability */
     pointer-events: none; /* Ensure the background does not interfere with content */
 }
