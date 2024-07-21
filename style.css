@@ -50,6 +50,7 @@ button {
     margin: 10px;
     border-radius: 5px;
     outline: none;
+    text-decoration: none;
 }
 
 button:hover {
@@ -94,6 +95,6 @@ footer {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 1; /* Adjust opacity for better readability */
+    opacity: 0.2; /* Adjust opacity for better readability */
     pointer-events: none; /* Ensure the background does not interfere with content */
 }
