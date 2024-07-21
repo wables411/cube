@@ -68,6 +68,13 @@ footer .soundcloud {
     margin: 0 auto; /* Center the SoundCloud player */
 }
 
+footer .youtube-video {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; /* Center the YouTube video */
+}
+
 .emoji {
     position: fixed;
     top: 0;
@@ -106,8 +113,8 @@ footer .soundcloud {
         padding: 8px 16px; /* Adjust button padding */
     }
     
-    footer .soundcloud {
-        width: 90%; /* Ensure SoundCloud player fits within smaller screens */
+    footer .soundcloud, footer .youtube-video {
+        width: 90%; /* Ensure SoundCloud player and YouTube video fit within smaller screens */
     }
     
     .content p {
