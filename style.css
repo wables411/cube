@@ -43,6 +43,8 @@ header, .content, footer {
     font-family: 'OCRAEXT', sans-serif;
     font-size: 1em;
     margin: 10px;
+    border-radius: 5px;
+    outline: none;
 }
 
 .follow-button:hover, .buy-button:hover, .twitter-button:hover {
