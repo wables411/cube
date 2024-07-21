@@ -1,7 +1,7 @@
 /* Import the font */
 @font-face {
     font-family: 'OCRAEXT';
-    src: url('main/fonts/OCRAEXT.TTF') format('truetype');
+    src: url('fonts/OCRAEXT.TTF') format('truetype');
 }
 
 body {
@@ -97,4 +97,3 @@ footer {
     opacity: 0.2; /* Adjust opacity for better readability */
     pointer-events: none; /* Ensure the background does not interfere with content */
 }
-
