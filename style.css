@@ -61,18 +61,11 @@ button:hover {
     background-color: rgba(211, 211, 211, 0.6); /* Darker grey on hover */
 }
 
-footer .soundcloud {
+footer .soundcloud, footer .youtube-video {
     margin-top: 20px;
     width: 100%;
     max-width: 600px;
-    margin: 0 auto; /* Center the SoundCloud player */
-}
-
-footer .youtube-video {
-    margin-top: 20px;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto; /* Center the YouTube video */
+    margin: 0 auto; /* Center the players */
 }
 
 .emoji {
@@ -102,6 +95,21 @@ footer .youtube-video {
     pointer-events: none; /* Ensure the background does not interfere with content */
 }
 
+/* Styles for the video container */
+.video-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto; /* Center the video with some margin */
+    z-index: 1; /* Ensure it is on top of the background */
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add some rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
 /* Media Queries for Mobile Optimization */
 @media (max-width: 768px) {
     header h1, header h2, .content-title {
@@ -113,8 +121,8 @@ footer .youtube-video {
         padding: 8px 16px; /* Adjust button padding */
     }
     
-    footer .soundcloud, footer .youtube-video {
-        width: 90%; /* Ensure SoundCloud player and YouTube video fit within smaller screens */
+    footer .soundcloud, footer .youtube-video, .video-container {
+        width: 90%; /* Ensure players and video fit within smaller screens */
     }
     
     .content p {
