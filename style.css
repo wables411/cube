@@ -110,6 +110,19 @@ footer .soundcloud, footer .youtube-video {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
 }
 
+/* Styles for the Sanko TV button */
+.sanko-button {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.sanko-button:hover {
+    transform: scale(1.05);
+}
+
 /* Media Queries for Mobile Optimization */
 @media (max-width: 768px) {
     header h1, header h2, .content-title {
